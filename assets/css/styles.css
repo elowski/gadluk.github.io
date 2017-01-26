@@ -1,0 +1,63 @@
+body {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background: none;
+}
+
+.full {
+  background: url(../img/bg2.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.header-content {
+	margin-top: 20vh;
+}
+
+.separator {
+  padding-top: 5vh;
+}
+
+#map {
+  padding-bottom: 34%;
+}
+
+.slideAnimation {
+    visibility: hidden;
+}
+
+.slider {
+    animation-name: slider;
+    -webkit-animation-name: slider;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+}
+
+.gallery-item:hover {
+  cursor: pointer;
+}
+
+@keyframes slider {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+
+@-webkit-keyframes slider {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
