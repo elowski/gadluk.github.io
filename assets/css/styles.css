@@ -16,6 +16,16 @@ body {
 	margin-top: 20vh;
 }
 
+.navbar-brand {
+	padding: 0px;
+}
+
+.navbar-brand>img {
+	height: 100%;
+	padding: 5px;
+	width: auto;
+}
+
 .separator {
   padding-top: 5vh;
 }
@@ -38,6 +48,30 @@ body {
 
 .gallery-item:hover {
   cursor: pointer;
+}
+
+.footer {
+  padding: 5px 0px;
+}
+
+.margin-bottom-xs {
+	margin-bottom: 0.5rem;
+}
+
+.margin-top-xl {
+	margin-top: 2rem;
+}
+
+.watermark {
+	position:absolute;
+	top:0;
+	left:5px;
+	width:100%;
+	font-size:2em;
+}
+
+.height-2-line {
+	height: 40px;
 }
 
 @keyframes slider {
