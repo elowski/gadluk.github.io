@@ -74,6 +74,11 @@ body {
 	height: 40px;
 }
 
+.watermark-container {
+	position:relative;
+	display:inline-block;
+}
+
 @keyframes slider {
     0% {
         opacity: 0;
